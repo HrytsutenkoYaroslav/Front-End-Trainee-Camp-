@@ -1,0 +1,10 @@
+.forecastContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.dayContainer {
+  text-align: center;
+  margin: 10px;
+}

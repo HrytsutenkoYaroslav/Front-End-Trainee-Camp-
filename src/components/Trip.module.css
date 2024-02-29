@@ -1,0 +1,43 @@
+.trip {
+  
+  width: 250px; 
+  text-align: start; 
+  margin-left: 25px;
+  
+}
+
+.trip:focus .textContainer {
+  border: 1px solid blue; 
+  padding: 5px; 
+}
+
+.textContainer {
+  margin-top: -4px;
+  margin-bottom: 10px;
+  width: 190px; 
+}
+
+.cityImage {
+  width: 202px; 
+  height: 202px; 
+  object-fit: cover; 
+}
+
+.trip h3 {
+  margin-left: 20px;
+  font-size: 0.9em; 
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+}
+
+.trip p { 
+  margin-left: 20px;
+  font-size: 0.8em; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.trip .textContainer{
+  border: 1px solid rgb(160, 160, 165, 0.5);
+  padding: 5px;
+  
+}

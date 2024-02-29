@@ -1,0 +1,23 @@
+.countdownContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px; 
+  }
+  
+  .timerItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 42px;
+    justify-content: space-between;
+  }
+  
+  .timerItem:last-child {
+    margin-right: 0; 
+  }
+  
+  .timerItem span:first-child {
+    font-weight: bold; 
+    font-size: 25px;
+    margin-bottom: 9px;
+  }

@@ -1,0 +1,142 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.addTripModal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative; 
+  width: 600px;
+  height: 500px;
+}
+
+.addTripModal h2 {
+  margin-top: 0;
+}
+
+.addTripModal select,
+.addTripModal input[type="date"],
+.addTripModal button {
+  margin-bottom: 10px;
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.saveButton,
+.cancelButton {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  max-width: 65px;
+  height: 38px;
+}
+
+.saveButton {
+  background-color: #007bff;
+  color: white;
+  margin-top: 40px;
+}
+
+.cancelButton {
+  background-color: white;
+  color: black;
+  margin-top: 40px;
+  margin-right: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  max-width: 75px;
+}
+
+.saveButton:hover,
+.cancelButton:hover {
+  opacity: 0.9; 
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px; 
+  right: 20px; 
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  max-width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; 
+}
+
+.addTripModal .closeButton {
+  border: none;
+}
+.inputContainer {
+  margin-top: 40px;
+}
+
+.input h2 {
+  margin-bottom: 50px;
+}
+
+.inputContainer:last-child {
+  margin-bottom: 50px;
+}
+
+.Container3 { 
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.inputh2 {
+  position: relative;
+}
+
+.inputh2::after,
+.inputContainer:last-child::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  width: calc(100% - 40px);
+}
+
+.inputh2::after {
+  top: calc(100% + 410px);
+  width: 100%; 
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.inputContainer:last-child::before {
+  bottom: calc(100% - 60px);
+}
+
+.inputContainer select {
+  width: 98.5%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
